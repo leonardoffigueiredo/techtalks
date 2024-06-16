@@ -22,3 +22,20 @@ function abrirNoticia(url) {
     window.open(url, '_blank');
   }
   
+
+  function redirectToInstagram01() {
+    window.location.href = "https://www.instagram.com/lf.figueiredo";
+  }
+
+  function redirectToInstagram02() {
+    window.location.href = "https://www.instagram.com/sokaio904";
+  }
+
+  function redirectToInstagram03() {
+    window.location.href = "https://www.instagram.com/dy_soulz";
+  }
+
+  function redirectToInstagram04() {
+    window.location.href = "https://www.instagram.com/_felipe566";
+  }
+
