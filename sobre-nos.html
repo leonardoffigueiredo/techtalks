@@ -1,0 +1,88 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles-noticias.css">
+</head>
+
+<body>
+    <!-- Começo da Landing Page -->
+    <div class="landing-page">
+        <header>
+            <div class="container">
+                <a href="#" class="logo">Tech <b style="color: rgb(31, 53, 255);">Talk</b></a>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Noticias</a></li>
+                    <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                    <li><a href="#" id="contactBtn">Entre em Contato</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Fim da Landing Page -->
+
+
+        <!-- POP-UP ENTRE EM CONTATO -->
+        <div id="contactPopup" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopup">&times;</span>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div>
+                            <h2>Informações de Contato</h2>
+                            <ul class="info-list">
+                                <li>
+                                    <span><img src="/images/location.png"></span>
+                                    <span>R. Pedroso da Silva, 744 <br>Parque Paulistano,
+                                        <br>São Paulo - SP,
+                                        <br>08080-040
+                                    </span>
+                                </li>
+                                <li>
+                                    <span><img src="/images/call.png"></span>
+                                    <span id="alinhar">(11) 9 8765-4321</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="#"><img src="/images/1.png"></a></li>
+                            <li><a href="#"><img src="/images/3.png"></a></li>
+                            <li><a href="#"><img src="/images/2.png"></a></li>
+                            <li><a href="#"><img src="/images/5.png"></a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <h2>Escreva a Menssagem</h2>
+                        <div class="form-box">
+                            <div class="input-box w50">
+                                <input type="text" name="first-name" required>
+                                <span>Primeiro Nome</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" name="last-name" required>
+                                <span>Último Nome</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="email" name="email" required>
+                                <span>Endereço de E-mail</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" name="mobile" required>
+                                <span>Número de Telefone</span>
+                            </div>
+                            <div class="input-box w100">
+                                <textarea name="message" required></textarea>
+                                <span>Escreva sua menssagem aqui...</span>
+                            </div>
+                            <div class="input-box w100">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIM POP-UP ENTRE EM CONTATO -->
+        <script src="script.js"></script>
+</body>

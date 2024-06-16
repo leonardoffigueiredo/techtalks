@@ -1,0 +1,154 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles/style-noticias.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- Começo da Landing Page -->
+    <div class="landing-page">
+        <header>
+            <div class="container">
+                <a href="index.html" class="logo">Tech <b style="color: rgb(31, 53, 255);">Talk</b></a>
+
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+
+                    <li><a href="blog.html">Noticias</a></li>
+                    <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                    <li><a href="#" id="contactBtn" style="color: white;">Entre em Contato</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Fim da Landing Page -->
+
+
+        <!-- POP-UP ENTRE EM CONTATO -->
+        <div id="contactPopup" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopup">&times;</span>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div>
+                            <h2>Contact Info</h2>
+                            <ul class="info-list">
+                                <li>
+                                    <span><img src="/images/location.png"></span>
+                                    <span>R. Pedroso da Silva, 744 <br>Parque Paulistano,
+                                        <br>São Paulo - SP,
+                                        <br>08080-040
+                                    </span>
+                                </li>
+                                <li>
+                                    <span><img src="/images/call.png"></span>
+                                    <span id="alinhar">(11) 9 8765-4321</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="#"><img src="/images/1.png"></a></li>
+                            <li><a href="#"><img src="/images/3.png"></a></li>
+                            <li><a href="#"><img src="/images/2.png"></a></li>
+                            <li><a href="#"><img src="/images/5.png"></a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <h2>Escreva a Menssagem</h2>
+                        <div class="form-box">
+                            <div class="input-box w50">
+                                <input type="text" name="first-name" required>
+                                <span>Primeiro Nome</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" name="last-name" required>
+                                <span>Último Nome</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="email" name="email" required>
+                                <span>Endereço de E-mail</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" name="mobile" required>
+                                <span>Número de Telefone</span>
+                            </div>
+                            <div class="input-box w100">
+                                <textarea name="message" required></textarea>
+                                <span>Escreva sua menssagem aqui...</span>
+                            </div>
+                            <div class="input-box w100">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIM POP-UP ENTRE EM CONTATO -->
+
+        <!--NOTICIAS-->
+        <main>
+            <div class="container">
+                <div class="noticia-detalhe">
+                    <h1>A Revolução da Inteligência Artificial na Medicina</h1>
+
+                    <img src="images/ai_medicine.png" alt="Inteligência Artificial na Medicina">
+
+                    <p>A Inteligência Artificial (IA) está desempenhando um papel cada vez mais crucial na transformação
+                        do setor de saúde, oferecendo novas possibilidades e melhorando significativamente o
+                        diagnóstico, tratamento e gestão de doenças. Uma das tecnologias emergentes que promete
+                        revolucionar a medicina é o uso de IA para interpretação de imagens médicas, como radiografias,
+                        tomografias e ressonâncias magnéticas.</p>
+
+                    <h2>Avanços na Interpretação de Imagens Médicas</h2>
+
+                    <p>A interpretação precisa de imagens médicas é fundamental para diagnósticos precisos e tratamentos
+                        eficazes. No entanto, o processo tradicional pode ser demorado e sujeito a erros humanos. Com o
+                        avanço da IA, algoritmos de aprendizado profundo (deep learning) estão sendo treinados para
+                        reconhecer padrões complexos em imagens, identificar anomalias sutis e até mesmo prever o
+                        desenvolvimento de doenças antes que sintomas se manifestem.</p>
+
+                    <p>Empresas e instituições de pesquisa ao redor do mundo estão desenvolvendo sistemas baseados em IA
+                        que superam a precisão dos radiologistas humanos em certos casos. Algoritmos de IA podem
+                        analisar grandes volumes de dados em segundos, comparados às horas que um profissional humano
+                        levaria, aumentando a eficiência e reduzindo custos no setor de saúde.</p>
+
+                    <h2>Aplicações Práticas e Exemplos</h2>
+
+                    <p>Um exemplo notável é o uso de IA para detectar precocemente câncer em imagens de mamografia.
+                        Algoritmos podem detectar microcalcificações e nódulos com maior precisão, permitindo
+                        intervenções mais rápidas e aumentando as chances de tratamento bem-sucedido.</p>
+
+                    <p>Além disso, a IA está sendo aplicada em cirurgias assistidas, onde robôs controlados por IA
+                        ajudam cirurgiões a realizar procedimentos com maior precisão e menos invasividade, melhorando
+                        os resultados pós-operatórios para os pacientes.</p>
+
+                    <h2>Desafios e Considerações Éticas</h2>
+
+                    <p>Apesar dos avanços promissores, a implementação generalizada de IA na medicina enfrenta desafios
+                        significativos. Questões relacionadas à privacidade dos dados dos pacientes, regulamentação,
+                        treinamento adequado de profissionais de saúde e a necessidade de garantir que a IA complemente,
+                        e não substitua, o julgamento clínico humano são pontos críticos a serem considerados.</p>
+
+                    <p>É essencial um debate ético contínuo para garantir que os benefícios da IA na medicina sejam
+                        maximizados, enquanto os riscos são mitigados de forma responsável.</p>
+
+                    <h2>Futuro da Inteligência Artificial na Medicina</h2>
+
+                    <p>O futuro da IA na medicina é emocionante e promissor. Espera-se que novas tecnologias continuem a
+                        emergir, oferecendo soluções mais avançadas para diagnóstico precoce, tratamento personalizado e
+                        gestão eficiente de sistemas de saúde globalmente.</p>
+
+                    <p>À medida que a pesquisa avança e mais dados são disponibilizados, a IA tem o potencial de
+                        revolucionar não apenas a prática médica, mas também a qualidade de vida dos pacientes em todo o
+                        mundo.</p>
+                </div>
+            </div>
+        </main>
+
+        <!--FIM NOTICIAS-->
+        <script src="script.js"></script>
+</body>

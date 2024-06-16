@@ -1,0 +1,148 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles/style-noticias.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Começo da Landing Page -->
+    <div class="landing-page">
+        <header>
+            <div class="container">
+                <a href="index.html" class="logo">Tech <b style="color: rgb(31, 53, 255);">Talk</b></a>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Noticias</a></li>
+                    <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                    <li><a href="#" id="contactBtn" style="color: white;">Entre em Contato</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Fim da Landing Page -->
+
+
+        <!-- POP-UP ENTRE EM CONTATO -->
+        <div id="contactPopup" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopup">&times;</span>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div>
+                            <h2>Informações de Contato</h2>
+                            <ul class="info-list">
+                                <li>
+                                    <span><img src="/images/location.png"></span>
+                                    <span>R. Pedroso da Silva, 744 <br>Parque Paulistano,
+                                        <br>São Paulo - SP,
+                                        <br>08080-040
+                                    </span>
+                                </li>
+                                <li>
+                                    <span><img src="/images/call.png"></span>
+                                    <span id="alinhar">(11) 9 8765-4321</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="#"><img src="/images/1.png"></a></li>
+                            <li><a href="#"><img src="/images/3.png"></a></li>
+                            <li><a href="#"><img src="/images/2.png"></a></li>
+                            <li><a href="#"><img src="/images/5.png"></a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <h2>Escreva a Menssagem</h2>
+                        <div class="form-box">
+                            <div class="input-box w50">
+                                <input type="text" name="first-name" required>
+                                <span>Primeiro Nome</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" name="last-name" required>
+                                <span>Último Nome</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="email" name="email" required>
+                                <span>Endereço de E-mail</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" name="mobile" required>
+                                <span>Número de Telefone</span>
+                            </div>
+                            <div class="input-box w100">
+                                <textarea name="message" required></textarea>
+                                <span>Escreva sua menssagem aqui...</span>
+                            </div>
+                            <div class="input-box w100">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIM POP-UP ENTRE EM CONTATO -->
+
+        <main>
+            <div class="container">
+                <div class="noticia-detalhe">
+                    <h1>História do Kotlin</h1>
+
+                    <img src="images/kotlin.png" alt="Logo Python">
+
+                    <p>Kotlin é uma linguagem de programação moderna, estática, tipada estaticamente que roda na máquina
+                        virtual Java (JVM), bem como na compilação para JavaScript. Ela foi inicialmente desenvolvida
+                        pela JetBrains em 2011, mas foi aberta para o público em geral em 2016. Kotlin se destaca por
+                        ser concisa, expressiva e segura, trazendo melhorias significativas em relação ao
+                        desenvolvimento de aplicativos Android, entre outras aplicações.</p>
+
+                    <h2>Origens e Evolução</h2>
+
+                    <p>O desenvolvimento inicial do Kotlin começou na JetBrains, uma empresa conhecida por suas
+                        ferramentas de desenvolvimento como IntelliJ IDEA, ReSharper e PyCharm. A motivação por trás da
+                        criação do Kotlin foi resolver as limitações percebidas no desenvolvimento com Java, como
+                        verbosidade excessiva, falta de suporte a recursos modernos e erros comuns de programação.</p>
+
+                    <p>Em julho de 2011, a JetBrains anunciou publicamente o Kotlin, apresentando-o como uma linguagem
+                        que poderia coexistir com o Java em projetos existentes, graças à sua interoperabilidade
+                        perfeita com código Java.</p>
+
+                    <h2>Adoção e Popularidade</h2>
+
+                    <p>Em fevereiro de 2016, a JetBrains tornou o Kotlin open source sob a licença Apache 2.0, o que
+                        levou a um aumento significativo na adoção da linguagem. Uma das principais razões para a rápida
+                        adoção do Kotlin foi sua integração oficial com o Android Studio pelo Google em maio de 2017,
+                        tornando-o uma linguagem preferida para o desenvolvimento de aplicativos Android.</p>
+
+                    <p>Kotlin oferece várias vantagens sobre Java, incluindo um sistema de tipos mais seguro, suporte
+                        nativo a funções lambda, inferência de tipos, suporte a programação funcional e extensões de
+                        funções, o que resulta em um código mais conciso e legível.</p>
+
+                    <h2>Expansão Além do Android</h2>
+
+                    <p>Além do desenvolvimento Android, Kotlin encontrou aplicações em outras áreas, incluindo
+                        desenvolvimento de servidores com frameworks como o Spring, desenvolvimento de aplicações
+                        desktop com frameworks como o TornadoFX e até mesmo desenvolvimento web com o framework
+                        Kotlin/JS.</p>
+
+                    <p>A JetBrains continua a evoluir o Kotlin, lançando novas versões regularmente para melhorar a
+                        linguagem, corrigir bugs e adicionar novos recursos. A comunidade Kotlin também é ativa,
+                        contribuindo com bibliotecas e ferramentas que expandem ainda mais o ecossistema Kotlin.</p>
+
+                    <h2>Futuro do Kotlin</h2>
+
+                    <p>O futuro do Kotlin parece promissor, com um crescimento contínuo esperado no desenvolvimento
+                        Android e expansão em outras áreas, como IoT, desenvolvimento de microserviços e mais.</p>
+
+                    <p>A JetBrains e a comunidade Kotlin estão comprometidas em tornar a linguagem ainda mais poderosa,
+                        mantendo sua compatibilidade com Java e melhorando a experiência do desenvolvedor em geral.</p>
+                </div>
+        </main>
+
+
+
+        <script src="script.js"></script>
+</body>

@@ -1,0 +1,157 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles/style-noticias.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- Começo da Landing Page -->
+    <div class="landing-page">
+        <header>
+            <div class="container">
+                <a href="index.html" class="logo">Tech <b style="color: rgb(31, 53, 255);">Talk</b></a>
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html">Noticias</a></li>
+                    <li><a href="sobre-nos.html">Sobre Nós</a></li>
+                    <li><a href="#" id="contactBtn" style="color: white;">Entre em Contato</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Fim da Landing Page -->
+
+
+        <!-- POP-UP ENTRE EM CONTATO -->
+        <div id="contactPopup" class="popup">
+            <div class="popup-content">
+                <span class="close" id="closePopup">&times;</span>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div>
+                            <h2>Informações de Contato</h2>
+                            <ul class="info-list">
+                                <li>
+                                    <span><img src="/images/location.png"></span>
+                                    <span>R. Pedroso da Silva, 744 <br>Parque Paulistano,
+                                        <br>São Paulo - SP,
+                                        <br>08080-040
+                                    </span>
+                                </li>
+                                <li>
+                                    <span><img src="/images/call.png"></span>
+                                    <span id="alinhar">(11) 9 8765-4321</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="#"><img src="/images/1.png"></a></li>
+                            <li><a href="#"><img src="/images/3.png"></a></li>
+                            <li><a href="#"><img src="/images/2.png"></a></li>
+                            <li><a href="#"><img src="/images/5.png"></a></li>
+                        </ul>
+                    </div>
+                    <div class="contact-form">
+                        <h2>Escreva a Menssagem</h2>
+                        <div class="form-box">
+                            <div class="input-box w50">
+                                <input type="text" name="first-name" required>
+                                <span>Primeiro Nome</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" name="last-name" required>
+                                <span>Último Nome</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="email" name="email" required>
+                                <span>Endereço de E-mail</span>
+                            </div>
+                            <div class="input-box w50">
+                                <input type="text" name="mobile" required>
+                                <span>Número de Telefone</span>
+                            </div>
+                            <div class="input-box w100">
+                                <textarea name="message" required></textarea>
+                                <span>Escreva sua menssagem aqui...</span>
+                            </div>
+                            <div class="input-box w100">
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FIM POP-UP ENTRE EM CONTATO -->
+
+        <main>
+            <div class="container">
+                <div class="noticia-detalhe">
+                    <h1>História do Python</h1>
+
+                    <img src="images/python.png" alt="Logo Python">
+
+                    <p>Python é uma linguagem de programação de alto nível, interpretada, de tipagem dinâmica e
+                        multiplataforma. Desenvolvida por Guido van Rossum e lançada pela primeira vez em 1991, Python
+                        tem sido amplamente adotada tanto por iniciantes quanto por programadores experientes devido à
+                        sua simplicidade e legibilidade.</p>
+
+                    <h2>Origens e Evolução</h2>
+
+                    <p>O desenvolvimento do Python teve início no final dos anos 1980, quando Guido van Rossum, então
+                        trabalhando no Centrum Wiskunde & Informatica (CWI) na Holanda, sentiu a necessidade de uma
+                        linguagem de programação que fosse fácil de usar e extremamente poderosa. Ele queria uma
+                        linguagem que fosse capaz de lidar com exceções e interfaces de usuário, além de ser capaz de
+                        falar com sistemas operacionais Amoeba.</p>
+
+                    <p>A primeira versão pública do Python, Python 0.9.0, foi lançada em fevereiro de 1991. Desde então,
+                        Guido van Rossum liderou o desenvolvimento da linguagem, trabalhando para expandir suas
+                        capacidades e comunidade de usuários ao longo dos anos.</p>
+
+                    <p>Python 2.0, lançado em 2000, introduziu várias melhorias importantes, incluindo o suporte a
+                        Unicode, o que ajudou a solidificar a base de usuários da linguagem ao redor do mundo. No
+                        entanto, a transição para o Python 3.x começou em dezembro de 2008, focando em melhorias
+                        significativas na sintaxe e funcionalidades, embora tenha exigido uma adaptação gradual devido à
+                        incompatibilidade com versões anteriores.</p>
+
+                    <h2>Popularidade e Aplicações</h2>
+
+                    <p>Nos últimos anos, Python emergiu como uma das linguagens de programação mais populares e
+                        amplamente usadas em todo o mundo. Sua simplicidade e legibilidade tornaram-no a escolha
+                        preferida para uma variedade de aplicações, desde desenvolvimento web e automação até análise de
+                        dados, inteligência artificial e aprendizado de máquina.</p>
+
+                    <p>A flexibilidade de Python é amplamente apreciada na comunidade de desenvolvedores, que criou uma
+                        vasta gama de bibliotecas e frameworks para facilitar diferentes tipos de projetos. Exemplos
+                        incluem Django e Flask para desenvolvimento web, NumPy e pandas para computação científica, e
+                        TensorFlow e PyTorch para aprendizado de máquina.</p>
+
+                    <h2>Comunidade e Suporte</h2>
+
+                    <p>Python possui uma comunidade globalmente diversificada e altamente engajada de desenvolvedores. A
+                        Python Software Foundation (PSF), uma organização sem fins lucrativos, foi estabelecida para
+                        promover o desenvolvimento da linguagem Python, apoiar sua comunidade e garantir sua evolução
+                        contínua.</p>
+
+                    <p>A PSF realiza conferências anuais como a PyCon, workshops educacionais e oferece suporte através
+                        de documentação extensa, fóruns online e grupos de usuários locais. Além disso, a PSF trabalha
+                        para manter a compatibilidade entre versões do Python e promover boas práticas de
+                        desenvolvimento.</p>
+
+                    <h2>Conclusão</h2>
+
+                    <p>Desde suas origens modestas até se tornar uma força dominante na programação moderna, Python
+                        continua a evoluir e a influenciar positivamente a maneira como milhões de desenvolvedores em
+                        todo o mundo abordam problemas complexos de programação. Sua combinação única de simplicidade,
+                        poder e vasta comunidade garante que Python permanecerá uma escolha preferida por muitos anos,
+                        moldando continuamente o futuro da tecnologia.</p>
+                </div>
+        </main>
+
+
+
+        <script src="script.js"></script>
+</body>
